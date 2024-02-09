@@ -1,0 +1,5 @@
+There were two reasons the deleteNote function was note working correctly. The first was the issue with the backend code in server.js.
+In server.js, the code for deleting a note only printed out to the user that the code could not be deleted. There was no code that
+actually searched through the database for the note and deleted it. The second issue was in the frontend code. In the frontend code
+after checking that (!response.ok) was false, there should have been code to delete the note. But that code was missing and was only 
+checking for errors right after. After fixing those two issues, deleteNote now works correctly.
