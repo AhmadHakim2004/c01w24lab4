@@ -9,6 +9,7 @@
 
 ## Self Code Review Checklist:
 
+- [ ] Commit message is simple and descriptive
 - [ ] My code is readable and understandable
 - [ ] My code follows the style guidelines of this project
 - [ ] Overall structure and design of the code have been evaluated
