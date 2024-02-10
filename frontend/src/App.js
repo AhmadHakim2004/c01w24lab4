@@ -179,6 +179,7 @@ function App() {
                 entry={entry} 
                 editNote={editNote} 
                 deleteNote={deleteNote}
+                onChangeColor={onChangeColor}
                 />
               </div>
               )
@@ -207,7 +208,6 @@ function App() {
           closeDialog={closeDialog}
           postNote={postNoteState}
           patchNote={patchNoteState}
-          onChangeColor={onChangeColor}
           />
 
       </header>
